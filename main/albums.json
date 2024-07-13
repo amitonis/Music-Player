@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "cover": "cover/faith.jpg",
+        "title": "After Hours",
+        "artist": "The Weeknd"
+    },
+    {
+        "id": "2",
+        "cover": "cover/blinding_lights.jpg",
+        "title": "Good Kid, M.A.A.D City",
+        "artist": "Kendrick Lamar"
+    },
+    {
+        "id":"3",
+        "cover": "cover/Graduation.jpg",
+        "title": "Graduation",
+        "artist": "Kanye West"
+    },
+    {
+        
+        "id":"4",
+        "cover": "cover/HEROES & VILLAINS.jpg",
+        "title": "Heroes and Villains",
+        "artist": "Metro Boomin"
+    }
+
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Page</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="body">
+        <div class="album-info">
+            <img src="" alt="Album Cover" class="album-cover" id="albumCover">
+            <div class="album-details">
+                <h1 id="albumTitle"></h1>
+                <h2 id="albumArtist"></h2>
+                <p id="totalDuration"></p>
+            </div>
+        </div>
+        <table class="tracklist">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Song Name</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody id="tracklistBody"></tbody>
+        </table>
+    </div>
+
+    <!-- Audio Player Controls -->
+    <div class="audio-player">
+        <img src="" alt="Track Cover" id="trackImage">
+        <div class="track-info">
+            <h3 id="trackTitle">Title</h3>
+            <p id="trackArtist">Artist</p>
+            <p id="trackAlbum">Album</p>
+        </div>
+        
+        <button id="previousButton"><i class="fa fa-backward"></i></button>
+        <button id="playPauseButton"><i class="fa fa-play"></i></button>
+        <button id="nextButton"><i class="fa fa-forward"></i></button>
+        <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+        <input type="range" id="seekbar" value="0">
+       
+        <input type="range" id="volumeSeekbar" value="100">
+    </div>
+
+    <script src="album.js"></script>
+</body>
+</html>
